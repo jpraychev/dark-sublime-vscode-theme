@@ -1,0 +1,31 @@
+{
+    "name": "dark-sublime-vscode-theme",
+    "displayName": "Dark Sublime VSCode Theme",
+    "description": "Dark Sublime color theme based on default workbench colors and on sublime text syntax colors.",
+    "version": "1.0.0",
+    "author": {
+        "name": "Jordan Raychev",
+		"email": "jpraychev@gmail.com"
+    },
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "keywords": [
+        "default vscode",
+        "sublime text",
+        "dark sublime",
+        "vscode sublime"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Sublime",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Sublime-color-theme.json"
+            }
+        ]
+    }
+}
